@@ -27,6 +27,7 @@ I work as a leading process engineer. Extensive experience in design and 3D mode
 |JDBC|JSP|Servlet|
 |Maven|JUnit|SQL|
 |HTML|CSS|JS|
+|Intellij IDEA|VS Code| Postman|
 
 ### Soft skills
 
@@ -56,8 +57,9 @@ Console application for creating/editing/viewing users and saving to a file. Wit
 
 Telegram-bot in the form of a quiz using Spring Boot
 
-
 ## Work experience
+
+Extensive experience in machine-building production as a design engineer, CNC machine tool programmer, process engineer. I just started my journey in programming. Completed a basic Java programming course at the EPAM online laboratory. Here is a repository with educational projects. There are also a large number of educational projects on GitLub, but they are in private status, for educational purposes.
 
 ## Education
 **BNTU | MEF**
@@ -74,9 +76,9 @@ Higher education | 09.2005 - 06.2011
 |EPAM, online|03/21-05/22|[Course "Java Basics Upskill Lab"](https://github.com/vitalikulsha/UpSkill_Lab1_JavaBasics)|
 |ITVDN, online <br> Course "Java Developer"|07/21-09/21|[Java Starter](https://testprovider.com/ru/search-certificate/tp69745306)<br>[Java EE Basics](https://testprovider.com/ru/search-certificate/tp35933273)<br>[JDBC & Hibernate](https://testprovider.com/ru/search-certificate/tp28332316)<br>[Git Basics](https://testprovider.com/ru/search-certificate/tp72998692)<br>[Spring](https://testprovider.com/ru/search-certificate/tp59390149)<br>[Spring Data](https://testprovider.com/ru/search-certificate/tp11562388)|
 |Stepik, online|05/22 - u.n.|[SQL](https://stepik.org/cert/1503804)<br>[WEB technologies](https://stepik.org/cert/151220)<br>[Java web service part 1](https://stepik.org/cert/1520251)<br>[Java web service part 2](https://stepik.org/cert/1522773)<br>[JavaScript](https://stepik.org/cert/1535024)|
-|ITEA, online|09/21-09/21|[Corse "HTML-marathon"](https://github.com/vitalikulsha/vitalikulsha.github.io)|
+|ITEA, online|09/21-09/21|[Course "HTML-marathon"](https://github.com/vitalikulsha/vitalikulsha.github.io)|
 
 ## Foreign languages
 
-
+English — Elementary (Beginner)
 
