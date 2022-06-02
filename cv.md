@@ -45,11 +45,38 @@ I work as a leading process engineer. Extensive experience in design and 3D mode
 
 [WebBasicsREST](https://github.com/vitalikulsha/UpSkill_Lab1_JavaBasics/tree/master/WebBasicsREST)
 
+**Java web project using servlets and JSP**
 
+**"Library"** system with the ability to search and order books.
+
+[JavaWebProject](https://github.com/vitalikulsha/JavaWebProject)
+
+**Console Application**
+
+Console application for creating/editing/viewing users and saving to a file. Without the use of third-party libraries and frameworks.
+
+[user-catalog](https://github.com/vitalikulsha/user-catalog)
+
+**Telegram bot**
+
+Telegram-bot in the form of a quiz using Spring Boot
+
+[BLRweAreOne_bot](https://github.com/vitalikulsha/BLRweAreOne_bot)
 
 ## Work experience
 
 ## Education
+BNTU | MEF
+
+«Tool production technology»
+
+Higher education | 09.2005 - 06.2011
+
+### Courses
+
+EPAM | Online | 11/20 - 03/21 
+
+[Course "Java Basics"](https://github.com/vitalikulsha/BasicOfOOP)
 
 ## Foreign languages
 
