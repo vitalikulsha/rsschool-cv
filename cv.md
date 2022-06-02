@@ -1,16 +1,8 @@
-<h2> 
-<img src="img/photo.jpg" align="right" width="180">
-<split style="color:#00bfff; font-weight:bold">Vitali Kulsha </split><br>
-<h3 style="font-weight:bold">Junior Java Developer</h3>
-<h4>
-Location: Belarus, Zhodino<br>
-E-mail: kulsha_85@mail.ru<br>
-Phone: +375 29 567 86 01<br>
-Discord: Vitali(@vitalikulsha)<br>
-GitHub: <a href="https://github.com/vitalikulsha">vitalikulsha</a><br>
-LinkedIn: <a href="www.linkedin.com/in/vitali-kulsha">vitali-kulsha</a><br>
-</h4>
-</h2>
+# Vitali Kulsha
+## Junior Java Developer
+|||
+|---|---|
+|![Vitali Kulsha](img/photo.jpg)|Location: Belarus, Zhodino<br>E-mail: kulsha_85@mail.ru<br>Phone: +375 29 567 86 01<br>Discord: Vitali(@vitalikulsha)<br>GitHub: [vitalikulsha](https://github.com/vitalikulsha)<br>LinkedIn: [vitali-kulsha](www.linkedin.com/in/vitali-kulsha)|
 
 ## About me
 
