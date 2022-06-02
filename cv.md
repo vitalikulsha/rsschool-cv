@@ -1,7 +1,6 @@
-# Vitali Kulsha
-## Junior Java Developer
-|||
-|---|---|
+# Vitali Kulsha || Junior Java Developer
+|**Vitali Kulsha**|**Junior Java Developer**|
+|:---:|---|
 |![Vitali Kulsha](img/photo.jpg)|Location: Belarus, Zhodino<br>E-mail: kulsha_85@mail.ru<br>Phone: +375 29 567 86 01<br>Discord: Vitali(@vitalikulsha)<br>GitHub: [vitalikulsha](https://github.com/vitalikulsha)<br>LinkedIn: [vitali-kulsha](www.linkedin.com/in/vitali-kulsha)|
 
 ## About me
