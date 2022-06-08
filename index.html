@@ -40,8 +40,9 @@
     </header>		
 	<!-- CONTACT -->
 	<main class="main">
-	<h1>Vitali Kulsha || Junior Java Developer</h1>	
-	<section class="contact__container">		
+	<section >
+		<h1>Vitali Kulsha || Junior Java Developer</h1>
+		<div class="contact__container">
 		<div class="contact__img">
 			<img src="photo.jpg" alt="Vitali Kulsha">
 		</div>
@@ -54,6 +55,7 @@
 				<li class="contact__note"><span class="contact__title">GitHub:</span><a href="https://github.com/vitalikulsha"> vitalikulsha</a></li>
 				<li class="contact__note"><span class="contact__title">LinkedIn:</span><a href="www.linkedin.com/in/vitali-kulsha"> vitali-kulsha</a></li>
 			</ul>
+		</div>
 		</div>
 	</section>	
     <!-- ABOUT ME -->
@@ -158,10 +160,10 @@
 				Telegram-bot in the form of a quiz using Spring Boot.
 			</p>
         </div>
-		<h2>Code example<h2>
+		<h2>Code example</h2>
 		<pre>
 			<code>
-public<void start() {
+public void start() {
 	BufferedReader reader = controller.getReader();
 	Command command = ApplicationReader.getEnum(reader, Command.class);
 	switch (Objects.requireNonNull(command)) {
@@ -204,13 +206,16 @@ public<void start() {
 			<li>Higher education | 09.2005 - 06.2011</li>										
 		</ul>
         <div class="education">
-			<table width="100%" border="1">
+			<table>
 				<caption>Courses</caption>
+				<tbody>
 				<tr>
 					<th>Organizer</th>
 					<th>Date</th>
 					<th>Projects or certificates</th>
-				<tr>
+				</tr>
+				</tbody>
+				<tbody>
 				<tr>
 					<td>EPAM, online</td>
 					<td>11/20-03/21</td>
@@ -253,6 +258,7 @@ public<void start() {
 					<td>09/21-09/21</td>
 					<td><a href="https://github.com/vitalikulsha/vitalikulsha.github.io">Course "HTML-marathon"</a></td>
 				</tr>
+				</tbody>
 			</table>
         </div>
     </section>
@@ -269,5 +275,5 @@ public<void start() {
 		<a href="https://github.com/vitalikulsha">GitHub</a>
     </footer>
 </body>
-        
+
 </html>
