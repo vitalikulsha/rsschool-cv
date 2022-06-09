@@ -163,23 +163,23 @@
 		<h2>Code example</h2>
 		<pre>
 			<code>
-public void start() {
-	BufferedReader reader = controller.getReader();
-	Command command = ApplicationReader.getEnum(reader, Command.class);
-	switch (Objects.requireNonNull(command)) {
-		case SHOW_ALL -> controller.printAllUsers();
-		case SHOW_USER -> controller.printUserById(ApplicationReader.getInteger(reader));
-		case CREATE -> controller.addUser();
-		case UPDATE -> controller.updateUser(ApplicationReader.getInteger(reader));
-		case EDIT -> controller.editUser(ApplicationReader.getInteger(reader));
-		case DELETE -> controller.deleteUser(ApplicationReader.getInteger(reader));
-		case STOP -> {
-			controller.stopReader();
-			return;
+<span class="code__red">public</span> void <span class="code__violet">start</span>() {
+	BufferedReader reader = controller.<span class="code__violet">getReader</span>();
+	Command command = ApplicationReader.<span class="code__violet">getEnum</span>(reader, Command.class);
+	<span class="code__red">switch</span>( (Objects.<span class="code__violet">requireNonNull</span>(command)) {
+		<span class="code__red">case</span>( <span class="code__blue">SHOW_ALL</span> -> controller.<span class="code__violet">printAllUsers</span>();
+		<span class="code__red">case</span>( <span class="code__blue">SHOW_USER</span> -> controller.<span class="code__violet">printUserById</span>(ApplicationReader.<span class="code__violet">getInteger</span>(reader));
+		<span class="code__red">case</span>( <span class="code__blue">CREATE</span> -> controller.<span class="code__violet">addUser</span>();
+		<span class="code__red">case</span>( <span class="code__blue">UPDATE</span> -> controller.<span class="code__violet">updateUser</span>(ApplicationReader.<span class="code__violet">getInteger</span>(reader));
+		<span class="code__red">case</span>( <span class="code__blue">EDIT</span> -> controller.<span class="code__violet">editUser</span>(ApplicationReader.<span class="code__violet">getInteger</span>(reader));
+		<span class="code__red">case</span>( <span class="code__blue">DELETE</span> -> controller.<span class="code__violet">deleteUser</span>(ApplicationReader.<span class="code__violet">getInteger</span>(reader));
+		<span class="code__red">case</span>( <span class="code__blue">STOP</span> -> {
+			controller.<span class="code__violet">stopReader</span>();
+			<span class="code__red">return</span>(;
 		}
-		default -> System.out.println("Command entry exception");
+		<span class="code__red">default</span>( -> System.out.<span class="code__violet">println</span>("Command entry exception");
 	}
-	start();
+	<span class="code__violet">start</span>();
 }
 			</code>
 		</pre>
