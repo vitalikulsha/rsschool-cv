@@ -4,7 +4,7 @@
 }
 
 section{
-	padding-top: 30px;
+	padding-top: 20px;
 }
 
 body {
@@ -13,17 +13,26 @@ body {
     margin-right: auto;
 }
 
-.header {
-    width: 100%;
-    box-sizing: border-box;
-	text-align: center;
-}
-
 h1{
 	text-align: center;
 	font-size: 40px;
 	font-weight: bold;
 	color: #0099cc;
+}
+
+table{
+	width: 100%;
+	border: 3px double gray;
+}
+
+td, th, tr{
+	border: 3px double gray;
+}
+
+.header {
+    width: 100%;
+    box-sizing: border-box;
+	text-align: center;
 }
 
 .menu{
@@ -179,6 +188,18 @@ code, pre{
 	font-size: 14px;
 	text-align: left;
 	padding-left: 20px;
+}
+
+.code__red{
+	color:#d73a49;
+}
+
+.code__blue{
+	color:#0550ae;
+}
+
+.code__violet{
+	color:#8250df;
 }
 
 .education{
