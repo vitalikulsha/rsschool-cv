@@ -167,13 +167,13 @@
 	BufferedReader reader = controller.<span class="code__violet">getReader</span>();
 	Command command = ApplicationReader.<span class="code__violet">getEnum</span>(reader, Command.class);
 	<span class="code__red">switch</span>( (Objects.<span class="code__violet">requireNonNull</span>(command)) {
-		<span class="code__red">case</span>( <span class="code__blue">SHOW_ALL</span> -&gt; controller.<span class="code__violet">printAllUsers</span>();
-		<span class="code__red">case</span>( <span class="code__blue">SHOW_USER</span> -&gt; controller.<span class="code__violet">printUserById</span>(ApplicationReader.<span class="code__violet">getInteger</span>(reader));
-		<span class="code__red">case</span>( <span class="code__blue">CREATE</span> -&gt; controller.<span class="code__violet">addUser</span>();
-		<span class="code__red">case</span>( <span class="code__blue">UPDATE</span> -&gt; controller.<span class="code__violet">updateUser</span>(ApplicationReader.<span class="code__violet">getInteger</span>(reader));
-		<span class="code__red">case</span>( <span class="code__blue">EDIT</span> -&gt; controller.<span class="code__violet">editUser</span>(ApplicationReader.<span class="code__violet">getInteger</span>(reader));
-		<span class="code__red">case</span>( <span class="code__blue">DELETE</span> -&gt; controller.<span class="code__violet">deleteUser</span>(ApplicationReader.<span class="code__violet">getInteger</span>(reader));
-		<span class="code__red">case</span>( <span class="code__blue">STOP</span> -&gt; {
+		<span class="code__red">case</span>( <span class="code__blue">SHOW_ALL</span> -> controller.<span class="code__violet">printAllUsers</span>();
+		<span class="code__red">case</span>( <span class="code__blue">SHOW_USER</span> -> controller.<span class="code__violet">printUserById</span>(ApplicationReader.<span class="code__violet">getInteger</span>(reader));
+		<span class="code__red">case</span>( <span class="code__blue">CREATE</span> -> controller.<span class="code__violet">addUser</span>();
+		<span class="code__red">case</span>( <span class="code__blue">UPDATE</span> -> controller.<span class="code__violet">updateUser</span>(ApplicationReader.<span class="code__violet">getInteger</span>(reader));
+		<span class="code__red">case</span>( <span class="code__blue">EDIT</span> -> controller.<span class="code__violet">editUser</span>(ApplicationReader.<span class="code__violet">getInteger</span>(reader));
+		<span class="code__red">case</span>( <span class="code__blue">DELETE</span> -> controller.<span class="code__violet">deleteUser</span>(ApplicationReader.<span class="code__violet">getInteger</span>(reader));
+		<span class="code__red">case</span>( <span class="code__blue">STOP</span> -> {
 			controller.<span class="code__violet">stopReader</span>();
 			<span class="code__red">return</span>(;
 		}
